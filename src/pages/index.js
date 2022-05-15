@@ -84,7 +84,7 @@ const features = [
   {
     name: "Remote-first",
     description:
-      "Work from anywhere. There’s also an office in Cincinnati and we’ll pay for you to work from a co-working space.",
+      "Work from anywhere. You can also enjoy the office in Cincinnati or we’ll pay for you to work from a co-working space.",
     icon: GlobeStand,
   },
   {
@@ -120,19 +120,19 @@ const features = [
   {
     name: "Flexible Stipend",
     description:
-      "Buy (and own) the equipment you need to do your job better. Top-of-the line MacBook, office equipment, and what else you need.",
+      "Buy (and own) the equipment you need to do your job better. Top-of-the line MacBook, office equipment, etc.",
     icon: Laptop,
   },
   {
     name: "Gather Stipend",
     description:
-      "We encourage you to gather with others when you can, and we’ll pay for you to spend time together with your team however you want.",
+      "We encourage you to gather with others when you can, and we’ll pay for you to spend time together with your team.",
     icon: AirplaneTakeoff,
   },
   {
     name: "Health Stipend",
     description:
-      "We offer up to $1k per month in health premium coverage to apply towards health plans that work the best for you and your family.",
+      "We offer up to $1k per month in health premium coverage to apply towards plans that work the best for you and your family.",
     icon: Heartbeat,
   },
 ]
@@ -223,10 +223,10 @@ const IndexPage = ({ data }) => {
             <p className="mt-3 max-w-prose mx-auto text-base text-gray-500 font-sans md:mt-5 leading-loose md:max-w-3xl">
               We believe in teaching our clients a better approach to delivering
               digital products. We launch early and iterate continuously. We
-              work in 6-week cycles and cool-down for 2 weeks to recoup and
+              work in 6-week cycles and cool-down for 2 weeks to re-coup and
               plan. We shape work together as a team cross-functionally. We
-              target and identify risks early to prepare for it. We relentlessly
-              scope-hammer.
+              target and identify risks early to prepare for them. We
+              relentlessly scope-hammer.
               <br />
               <strong className="text-gray-900 pt-2 block">
                 You get to do your best work.
@@ -292,9 +292,8 @@ const IndexPage = ({ data }) => {
                 />
               </div>
               <p className="mt-3 text-base text-gray-500">
-                Predict and solve airport operations problems before they exist
-                so that we can create a better experience for air travelers all
-                over.
+                Make connecting with God and community a daily habit. Trusted by
+                many of the nation’s leading churches.
               </p>
             </div>
 
