@@ -183,8 +183,9 @@ const IndexPage = ({ data }) => {
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               <strong className="font-medium text-gray-700">
-                We believe in a different kind of company: one that is built for
-                the sole benefit of our employees.
+                We believe in a different kind of company: focused on building
+                great lives for our employees, through bringing great digital
+                products to life.
               </strong>{" "}
               We know that we (<i>probably</i>) won’t be the last company you’ll
               ever work for, but we dream to be the last kind of company you’ll
