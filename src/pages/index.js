@@ -437,6 +437,7 @@ export const query = graphql`
   query {
     imageSection1: allFile(
       filter: { relativeDirectory: { eq: "image-section-1" } }
+      sort: { fields: name, order: ASC }
     ) {
       edges {
         node {
@@ -450,6 +451,7 @@ export const query = graphql`
 
     imageSection2: allFile(
       filter: { relativeDirectory: { eq: "image-section-2" } }
+      sort: { fields: name, order: ASC }
     ) {
       edges {
         node {
