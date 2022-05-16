@@ -9,7 +9,7 @@ const imageSection = ({ images }) => (
     {images.map(({ node }, i) => (
       <li
         key={node.name}
-        className={`relative min-w-[80vw] md:min-w-[50vw] lg:min-w-[33vw]`}
+        className={`relative min-w-[80vw] md:min-w-[50vw] lg:min-w-[25vw]`}
       >
         <div
           className={`aspect-square relative group block rounded-lg bg-gray-100 overflow-hidden`}

@@ -213,7 +213,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
 
-        <ImageSection images={data.imageSection1.edges} />
+        <ImageSection images={data?.imageSection1?.edges || []} />
 
         <div className="mx-auto max-w-3xl px-4" id="purpose">
           <div className="md:text-center">
@@ -233,7 +233,7 @@ const IndexPage = ({ data }) => {
               </strong>
             </p>
             <ul className="flex content-center justify-center flex-wrap mt-8 mix-blend-darken">
-              {data.logos.edges.map(({ node }) => (
+              {(data?.logos?.edges || []).map(({ node }) => (
                 <li key={node.name} className="m-4">
                   <GatsbyImage
                     image={getImage(node)}
@@ -332,7 +332,7 @@ const IndexPage = ({ data }) => {
           </div>
         </div>
 
-        <ImageSection images={data.imageSection2.edges} />
+        <ImageSection images={data?.imageSection2?.edges || []} />
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>
